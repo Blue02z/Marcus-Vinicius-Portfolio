@@ -20,6 +20,11 @@ function addFollow(){
                             
 }
 
+function more_languages(){
+    var more_languages = document.querySelector(".more_languages")
+    more_languages.classList.toggle("active")
+}
+
 function openAccordion(){
     const accordionContent = document.querySelector(".accordion-content")
     const accordionOpenButton = document.querySelector(".accordion-open-button")
@@ -54,3 +59,6 @@ function openAccordion5(){
     accordionContent.classList.toggle("open")
     accordionOpenButton.classList.toggle("open")
 }
+
+
+

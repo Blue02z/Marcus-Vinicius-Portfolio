@@ -9,9 +9,25 @@
     
 }
 
+.header2{
+    display: none;
+}
+
+.header2.active{
+    display: block;
+}
+
 body{
     width: 100%;
 
+}
+
+.header1.active{
+    display: flex;
+}
+
+.header1.pause{
+    display: none;
 }
 
 header{
@@ -68,6 +84,12 @@ nav{
     outline: rgba(128, 128, 128, 0.11) 8px solid;
     border-radius: 12px;
 
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .language img{
@@ -503,7 +525,31 @@ line-height: normal;
     line-height: normal;
 }
 
+.more_languages{
+    height: 150px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.582);
+    display: none;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px rgb(0, 0, 0, 0.1);
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
 
+#eua{
+    margin-top: 15px;
+}
+
+#spn{
+    padding-top: 15px;
+}
+
+.more_languages.active{
+    display: flex;
+    position: absolute;
+}
 
 
 
