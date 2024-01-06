@@ -1,0 +1,543 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    width: 100%;
+
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.logo h2{
+    color: #005DA0;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.menu li{
+    padding-left: 30px;
+}
+
+.menu li a{
+    color: #005DA0;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu a:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+    outline: rgba(128, 128, 128, 0.11) 8px solid;
+    border-radius: 12px;
+
+}
+
+.language img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.dark_ligh_theme{
+    width: 70px;
+    height: 31px;
+    background-color: black;
+    border-radius: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme_cicle{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.about_me_card{
+    width: 1148px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #026FBD;
+    box-shadow: 35px 35px 4px 0px rgba(11, 21, 244, 0.25);
+}
+
+.about_me_card_itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.c1{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.c2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #005DA0;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.c3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0B0145;
+}
+
+.decorations_circles{
+    display: flex;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+
+
+.text_area h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.text_area h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.text_area h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.links_area{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.social_link{
+    width: 55px;
+    height: 55px;
+    background-color: #005DA0;
+    border-radius: 50%;    
+    margin-right: 50px;
+}
+
+.social_link:hover{
+    background-color: #024372;
+    cursor: pointer;
+}
+
+.photo img{
+    border-radius: 50%;
+    width: 327px;
+    height: 327px;
+}
+
+.container{
+    background-color: transparent;
+    box-shadow: 35px 35px 4px 0px rgba(11, 21, 244, 0.25);
+    margin-top: 180px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1.5px solid #BDBDBD;
+    width: 900px;
+}
+
+
+.banner img{
+    margin-bottom: -40px;
+    width: 100%;
+    height: 312px;
+    border-radius: 8px;
+}
+
+
+.fds{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile-pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 8px white solid;
+    flex-wrap: wrap;
+}
+
+.material-symbols-outlined{
+    color: #2965F1;
+}
+
+.js{
+    width: 55px;
+    height: 55px;
+    background: #F16529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.js:nth-child(3){
+    background: #2965F1;
+}
+
+.js:nth-child(4){
+    background: #FBD725;
+}
+
+.js:nth-child(5){
+    background: #BC1B1F;
+}
+
+
+.js img{
+    width: 35px;
+    height: 35px;
+}
+
+.follow-button{
+    width: 141px;
+    height: 40px;
+    border-radius: 16px;
+    background: #026FBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.follow-button h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about{
+    margin: 0px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about h2{
+    color: #090909;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about ul{
+    display: flex;
+}
+
+.about li{
+    color: #7D7C7C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me p{
+    color: #7D7C7C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+
+.following{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.following h3{
+    color: #026FBD;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 5px;
+}
+
+.following h4{
+    color: #7D7C7C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.followers{
+    display: flex;
+    align-items: center;
+}
+
+.followers h4{
+    color: #7D7C7C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.followers h3{
+    color: #026FBD;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 5px;
+
+}
+
+.follows{
+    display: flex;
+    flex-direction: row;
+}
+
+.about2 p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 2;
+}
+
+.accordion:nth-child(1){
+    display: flex;
+    align-items: center;
+    border-top: 2px #005DA0 solid;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.accordion{
+    display: flex;
+    align-items: center;
+    border-top: 2px #005DA0 solid;
+    justify-content: space-between;
+}
+
+.accordion-pic{
+    display: flex;
+    padding: 12px 0px 12px 0px;
+    margin-left: 35px;
+}
+
+.accordion-pic img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.accordion-text h2{
+    color: #090909;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.accordion-text h3{
+    color: #7D7C7C;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5 {
+    width: 50px;
+    height: 50px;
+    background-color: #005DA0;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5 :hover{
+    cursor: pointer;
+    background-color: #024372;;    
+}
+
+.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5 h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(90deg);
+}
+
+.accordion-open-button.open, .accordion-open-button2.open, .accordion-open-button3.open, .accordion-open-button4.open, .accordion-open-button5.open  h4{
+
+    transform: rotate(-90deg);
+}
+
+.accordion-content, .accordion-content2, .accordion-content3, .accordion-content4, .accordion-content5{
+    padding: 0px 15px 0px 15px;
+    display: none;
+}
+
+.accordion-content.open, .accordion-content2.open, .accordion-content3.open, .accordion-content4.open, .accordion-content5.open{
+    display: flex;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+/* Modo dark */
+
+body.dark{
+    background: #1C1C1C;
+    
+}
+
+.dark_ligh_theme.dark{
+    background: #026FBD;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme_cicle.dark{
+    background: #FBD725;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.menu.dark{
+    color: #000;
+}
+
+.container.dark li,  .container.dark h4, .container.dark .profile-pic img{
+    color: #aaa;
+    outline: rgb(28, 28, 28);
+}
+
+.container.dark h2, .container.dark p, .container.dark h3{
+    color: white;
+}
