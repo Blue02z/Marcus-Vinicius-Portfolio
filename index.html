@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcus Vinicius - Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,200" />
 </head>
 <body id="body_page">
 
@@ -16,6 +17,11 @@
         <nav>
             <div class="logo">
                 <h2>Marcus Vinicius</h2>
+            </div>
+            <div class="menu-hamburguer">
+                <span class="material-symbols-rounded">
+                    menu
+                    </span>
             </div>
             <div class="menu">
                 <ul>
@@ -88,10 +94,11 @@
                         <div class="js"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt=""></div>
                         <div class="js"><img src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt=""></div>
                         <div class="js"><img src="image 10.png" alt=""></div>
+                        <div class="follow-button" onclick="addFollow()">
+                            <h3>seguir</h3>
+                        </div>
                     </div>
-                    <div class="follow-button" onclick="addFollow()">
-                        <h3>seguir</h3>
-                    </div>
+                   
                 </div>
                 <div class="about">
                     <h2>Marcus Vinicius Costa Cunha <span class="material-symbols-outlined">
@@ -215,5 +222,6 @@
 
         </div>
     </div>
+    
 </body>
 </html>

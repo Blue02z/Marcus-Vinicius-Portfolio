@@ -15,9 +15,7 @@ function dark(){
 
 function addFollow(){
     var add_followers = document.querySelector(".add-followers");
-    add_followers.innerHTML = 1;
-    
-                            
+    add_followers.innerHTML = 1; 
 }
 
 function more_languages(){
@@ -59,6 +57,3 @@ function openAccordion5(){
     accordionContent.classList.toggle("open")
     accordionOpenButton.classList.toggle("open")
 }
-
-
-

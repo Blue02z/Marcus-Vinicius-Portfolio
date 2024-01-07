@@ -14,10 +14,12 @@ body{
     width: 100%;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1)0.3s;
     transform: translateX(189deg);
+
 }
 
 header{
     width: 100%;
+    
 }
 
 nav{
@@ -48,7 +50,6 @@ nav{
 .menu ul{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 
 }
 
@@ -126,12 +127,13 @@ main{
 }
 
 .about_me_card{
-    width: 1148px;
+    width: 1100px;
     padding: 30px;
     border-radius: 8px;
     background: #026FBD;
     box-shadow: 35px 35px 4px 0px rgba(11, 21, 244, 0.25);
     margin: 30px;
+
 }
 
 .about_me_card_itens{
@@ -139,6 +141,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .c1{
@@ -221,7 +224,7 @@ main{
     height: 55px;
     background-color: #005DA0;
     border-radius: 50%;    
-    margin-right: 50px;
+    
 }
 
 .social_link:hover{
@@ -235,24 +238,28 @@ main{
     height: 270px;
 }
 
+/*------------------------------Sobre mim---------------------------------------------------*/
+
 .container{
     background-color: transparent;
-    box-shadow: 35px 35px 4px 0px rgba(11, 21, 244, 0.25);
-    margin-top: 180px;
+    box-shadow: 15px 15px 4px 0px rgba(11, 21, 244, 0.25);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: 1.5px solid #BDBDBD;
     width: 900px;
+    margin: 180px 40px 180px 40px;
 }
+
+/*-----------------------Imagens-------------------------------------------- */
 
 
 .banner img{
     margin-bottom: -40px;
     width: 100%;
     height: 312px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 
@@ -271,14 +278,18 @@ main{
     
 }
 
+/*-----------------------Imagens-------------------------------------------- */
+
 .material-symbols-outlined{
     color: #2965F1;
 }
 
 .emblems{
     display: flex;
-    justify-content: space-around;
-    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    flex-wrap: wrap;
 }
 
 .js{
@@ -315,8 +326,8 @@ main{
     height: 40px;
     border-radius: 16px;
     background: #026FBD;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     cursor: pointer;
 }
@@ -334,6 +345,9 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+
+/*-----------------------Informações-------------------------------------------- */
+
 
 .about{
     margin: 0px 0px 0px 30px;
@@ -386,6 +400,9 @@ main{
     display: flex;
     justify-content: center;
 }
+
+/*-----------------------Parte dos seguidores--------------------------------------- */
+
 
 .following{
     display: flex;
@@ -446,6 +463,9 @@ main{
     flex-direction: row;
 }
 
+/*-----------------------Parte dos seguidores--------------------------------------- */
+
+
 .about2 p{
     color: #000;
     font-family: Roboto;
@@ -455,6 +475,11 @@ main{
     line-height: normal;
     flex-shrink: 2;
 }
+
+/*-----------------------Informações-------------------------------------------- */
+
+/*-----------------------SAC--------------------------------------- */
+
 
 .accordion:nth-child(1){
     display: flex;
@@ -469,6 +494,7 @@ main{
     align-items: center;
     border-top: 2px #005DA0 solid;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .accordion-pic{
@@ -484,6 +510,9 @@ main{
     margin-right: 8px;
 }
 
+/*----Nome----*/
+
+
 .accordion-text h2{
     color: #090909;
     font-family: Poppins;
@@ -493,6 +522,8 @@ main{
     line-height: normal;
 }
 
+/*----Pergunta----*/
+
 .accordion-text h3{
     color: #7D7C7C;
     font-family: Poppins;
@@ -501,6 +532,8 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+
+/*----Botão accordion----*/
 
 .accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5 {
     width: 50px;
@@ -513,10 +546,7 @@ main{
     justify-content: center;
 }
 
-.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5{
-    cursor: pointer;
-    background-color: #024372;;    
-}
+
 
 .accordion-open-button:hover, .accordion-open-button2:hover, .accordion-open-button3:hover, .accordion-open-button4:hover, .accordion-open-button5:hover{
 
@@ -531,6 +561,7 @@ main{
     font-weight: 700;
     line-height: normal;
     transform: rotate(90deg);
+    cursor: pointer;
 }
 
 .accordion-open-button.open, .accordion-open-button2.open, .accordion-open-button3.open, .accordion-open-button4.open, .accordion-open-button5.open  h4{
@@ -538,10 +569,15 @@ main{
     transform: rotate(-90deg);
 }
 
+/*----Conteúdo do accordion fechado----*/
+
+
 .accordion-content, .accordion-content2, .accordion-content3, .accordion-content4, .accordion-content5{
-    padding: 0px 15px 0px 15px;
     display: none;
 }
+
+/*----Conteúdo do accordion aberto----*/
+
 
 .accordion-content.open, .accordion-content2.open, .accordion-content3.open, .accordion-content4.open, .accordion-content5.open{
     display: flex;
@@ -551,7 +587,12 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 0px 15px 15px 15px;
+    text-align: justify;
 }
+
+/*-----------------------SAC-------------------------------- */
+
 
 .more_languages{
     height: 150px;
@@ -583,7 +624,7 @@ main{
 
 
 
-/* Modo dark */
+/* ----------------------------Modo dark---------------------------- */
 
 body.dark{
     background: #1C1C1C;
@@ -611,6 +652,7 @@ body.dark{
     background: #FBD725;
     border-radius: 50%;
     margin-right: 8px;
+    
 }
 
 .menu.dark{
@@ -624,4 +666,76 @@ body.dark{
 
 .container.dark h2, .container.dark p, .container.dark h3{
     color: white;
+}
+
+.menu-hamburguer{
+    display: none;
+}
+
+/* ----------------------------Modo dark---------------------------- */
+
+/* ----------------------------Responsividade---------------------------- */
+
+
+@media (max-width: 800px) {
+    .menu{
+        display: none;
+
+    }
+
+    nav{
+        justify-content:space-between;
+        
+    }
+
+    .menu-hamburguer{
+        display: flex;
+    }
+
+    .container{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container h2{
+        font-size: 25px;
+    }
+
+
+    
+    .container p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 650px){
+
+    .about_me_card{
+        width: 350px;        
+    }
+
+    .text_area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links_area{
+
+    }
+
+    .about_me_card h3{
+        font-size: 30px;
+    }
+
+    .about_me_card h2{
+        font-size: 30px;
+    }
+
+    .about_me_card h1{
+        font-size: 40px;
+    }
+
 }
