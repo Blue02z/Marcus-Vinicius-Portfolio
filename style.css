@@ -290,6 +290,7 @@ main{
     justify-content: space-between;
     width: 70%;
     flex-wrap: wrap;
+    
 }
 
 .js{
@@ -677,7 +678,7 @@ body.dark{
 /* ----------------------------Responsividade---------------------------- */
 
 
-@media (max-width: 800px) {
+@media (max-width: 800px){
     .menu{
         display: none;
 
@@ -685,7 +686,7 @@ body.dark{
 
     nav{
         justify-content:space-between;
-        
+
     }
 
     .menu-hamburguer{
@@ -702,7 +703,7 @@ body.dark{
         font-size: 25px;
     }
 
-
+  
     
     .container p{
         font-size: 16px;
@@ -710,10 +711,10 @@ body.dark{
 
 }
 
-@media (max-width: 650px){
+@media (max-width: 400px){
 
     .about_me_card{
-        width: 350px;        
+        width: 300px;        
     }
 
     .text_area{
@@ -722,20 +723,19 @@ body.dark{
         align-items: center;
     }
 
-    .links_area{
-
-    }
+   
 
     .about_me_card h3{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .about_me_card h2{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .about_me_card h1{
-        font-size: 40px;
+        font-size: 35px;
+        text-align: center;
     }
 
 }
