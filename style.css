@@ -325,6 +325,9 @@ main{
     background: #BC1B1F;
 }
 
+.js:nth-child(5){
+    background: #3485b1;
+}
 
 .js img{
     width: 35px;
@@ -691,23 +694,26 @@ main{
 
 .container-card{
     width: 90%;
+    padding: 50px;
     
+
 }
 
 .background-hb{
-    border-radius: 8px;
-    background: #D9D9D9;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 50px;
-    
+    background: rgba(61, 61, 61, 0.288);
+    border-radius: 8px;
+    flex-wrap: wrap;
+    padding: 30px;
 }
+
+
 
 .img-icon{
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
+    background: white;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
     display: flex;
     justify-content: center;
@@ -722,21 +728,34 @@ main{
 }
 
 .hb-card{
-        border-radius: 8px;
-        background: #F16529;
-        padding: 20px;
-        box-shadow: 25px 25px 4px 0px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction: column;
-       flex-wrap: wrap;
-       margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
 }
 
-.hb-card .decorations_circles{
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    
+.hb-card:nth-child(1){
+    background: #F16529;
+}
+
+.hb-card:nth-child(2){
+    background: #2965F1;
+}
+
+.hb-card:nth-child(3){
+    background: #FBD725;
+}
+
+.hb-card:nth-child(4){
+    background: #BC1B1F;
+}
+
+.hb-card:nth-child(5){
+    background: #174A66;
+
 }
 
 .hb-card .decorations_circles .cicle:nth-child(1), .cicle:nth-child(2), .cicle:nth-child(3){
