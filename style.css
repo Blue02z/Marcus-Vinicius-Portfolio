@@ -247,8 +247,8 @@ main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1.5px solid #BDBDBD;
-    width: 900px;
+    border: 2px solid #BDBDBD;
+    max-width: 900px;
     margin: 180px 40px 180px 40px;
 }
 
@@ -268,6 +268,7 @@ main{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .profile-pic img{
@@ -351,7 +352,7 @@ main{
 
 
 .about{
-    margin: 0px 0px 0px 30px;
+    padding: 0px 30px 0px 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -502,6 +503,7 @@ main{
     display: flex;
     padding: 12px 0px 12px 0px;
     margin-left: 35px;
+    align-items: center;
 }
 
 .accordion-pic img{
@@ -554,7 +556,7 @@ main{
     background-color: #033253;;    
 }
 
-.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5 h4{
+.accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5{
     color: #FFF;
     font-family: Poppins;
     font-size: 40px;
@@ -565,7 +567,7 @@ main{
     cursor: pointer;
 }
 
-.accordion-open-button.open, .accordion-open-button2.open, .accordion-open-button3.open, .accordion-open-button4.open, .accordion-open-button5.open  h4{
+.accordion-open-button.open, .accordion-open-button2.open, .accordion-open-button3.open, .accordion-open-button4.open, .accordion-open-button5.open{
 
     transform: rotate(-90deg);
 }
@@ -693,10 +695,100 @@ body.dark{
         display: flex;
     }
 
+
+
+@media (max-width: 400px){
+
+    .about_me_card{
+         
+        padding: 30px;   
+    }
+
+    .text_area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+
+    .about_me_card h3{
+        font-size: 14px;
+    }
+
+    .about_me_card h2{
+        font-size: 15px;
+    }
+
+    .about_me_card h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    
+    .about_me_card_itens{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+    
+    .c1{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .c2{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .c3{
+        width: 10px;
+        height: 10px;
+    }
+    
+   
+    
+    .informations{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    
+    
+    .links_area{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .social_link{
+        width: 35px;
+        height: 35px; 
+     
+    }
+    
+    .social_link:hover{
+        background-color: #024372;
+        cursor: pointer;
+    }
+    
+    .photo img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
     .container{
-        width: 350px;
         display: flex;
         justify-content: center;
+        
+        
     }
 
     .container h2{
@@ -709,33 +801,57 @@ body.dark{
         font-size: 16px;
     }
 
-}
-
-@media (max-width: 400px){
-
-    .about_me_card{
-        width: 300px;        
+    .accordion-pic{
+        margin: 0;
+        width: 100%;
+        justify-content: center;
     }
 
-    .text_area{
+    .profile-pic img{
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .accordion-pic img{
+        width: 45px;
+        height: 45px;
+
+    }
+    .accordion-text h2{
+        font-size: 17px;
+
+    }
+    
+    /*----Pergunta----*/
+    
+    .accordion-text h3{
+        font-size: 15px;
+        
+
+    }
+
+    .accordion-open-button, .accordion-open-button2, .accordion-open-button3, .accordion-open-button4, .accordion-open-button5{
+        width: 30px;
+        height: 30px;
+        background-color: #005DA0;
+        border-radius: 50%;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .about{
+        padding: 0px 30px 0px 30px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
     }
 
-   
-
-    .about_me_card h3{
-        font-size: 20px;
-    }
-
-    .about_me_card h2{
-        font-size: 25px;
-    }
-
-    .about_me_card h1{
-        font-size: 35px;
-        text-align: center;
-    }
+}
 
 }
