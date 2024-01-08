@@ -123,7 +123,7 @@ nav{
 main{
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .about_me_card{
@@ -132,8 +132,7 @@ main{
     border-radius: 8px;
     background: #026FBD;
     box-shadow: 35px 35px 4px 0px rgba(11, 21, 244, 0.25);
-    margin: 30px;
-
+    margin: 30px 30px 50px 30px;
 }
 
 .about_me_card_itens{
@@ -144,7 +143,7 @@ main{
     
 }
 
-.c1{
+.cicle:nth-child(1){
     width: 30px;
     height: 30px;
     background-color: white;
@@ -153,7 +152,7 @@ main{
     flex-wrap: wrap;
 }
 
-.c2{
+.cicle:nth-child(2){
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -162,7 +161,7 @@ main{
     flex-wrap: wrap;
 }
 
-.c3{
+.cicle:nth-child(3){
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -181,7 +180,6 @@ main{
 }
 
 
-
 .text_area h1{
     color: #FFF;
     font-family: Poppins;
@@ -189,7 +187,7 @@ main{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+    margin: -20px 0px -20px 0px;
 }
 
 .text_area h2{
@@ -215,17 +213,27 @@ main{
 .links_area{
     display: flex;
     justify-content: space-between;
-    
+    margin: 10px 0px 10px 0px
 }
 
 
 .social_link{
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     background-color: #005DA0;
     border-radius: 50%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_link img{
+    width: 40px;
+    height: 40px;
+ 
     
 }
+
 
 .social_link:hover{
     background-color: #024372;
@@ -249,7 +257,7 @@ main{
     flex-wrap: wrap;
     border: 2px solid #BDBDBD;
     max-width: 900px;
-    margin: 180px 40px 180px 40px;
+    margin-top: 100px;
 }
 
 /*-----------------------Imagens-------------------------------------------- */
@@ -625,7 +633,151 @@ main{
     
 }
 
+.marker{
+    width: 42%;
+    height: 154px;
+    border-radius: 0px 8px 8px 0px;
+    background: #026FBD;
+    box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.marker h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cu{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.pgm-2{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 60px;
+}
+
+.pgm-2 .marker{
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-card{
+    width: 90%;
+    
+}
+
+.background-hb{
+    border-radius: 8px;
+    background: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.img-icon{
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon img{
+    width: 124px;
+    height: 130px;
+    flex-shrink: 0;
+    padding: 20px 50px 20px 50px;
+}
+
+.hb-card{
+        border-radius: 8px;
+        background: #F16529;
+        padding: 20px;
+        box-shadow: 25px 25px 4px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+       flex-wrap: wrap;
+       margin-bottom: 30px;
+}
+
+.hb-card .decorations_circles{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    
+}
+
+.hb-card .decorations_circles .cicle:nth-child(1), .cicle:nth-child(2), .cicle:nth-child(3){
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-area-card{
+    border-radius: 8px;
+    background: #FFF;
+    width: 235px;
+    height: 103px;
+    overflow: auto;
+}
+
+.text-area-card p{
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
 
 /* ----------------------------Modo dark---------------------------- */
 
@@ -675,6 +827,8 @@ body.dark{
     display: none;
 }
 
+
+
 /* ----------------------------Modo dark---------------------------- */
 
 /* ----------------------------Responsividade---------------------------- */
@@ -713,15 +867,15 @@ body.dark{
    
 
     .about_me_card h3{
-        font-size: 14px;
+        font-size: 22px;
     }
 
     .about_me_card h2{
-        font-size: 15px;
+        font-size: 28px;
     }
 
     .about_me_card h1{
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
     }
 
@@ -773,6 +927,18 @@ body.dark{
      
     }
     
+    .social_link{
+        width: 55px;
+        height: 55px; 
+     
+    }
+
+    .social_link img{
+        width: 35px;
+        height: 35px; 
+     
+    }
+
     .social_link:hover{
         background-color: #024372;
         cursor: pointer;
@@ -780,8 +946,8 @@ body.dark{
     
     .photo img{
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 
     .container{
@@ -840,6 +1006,19 @@ body.dark{
 
         justify-content: center;
         align-items: center;
+    }
+
+
+    .marker{
+        width: 72%;
+        height: 154px;
+        border-radius: 0px 8px 8px 0px;
+        background: #026FBD;
+        box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 
 }
